@@ -1,5 +1,3 @@
-import React from "react";
-
 const Footer = () => {
   return (
     <footer className="bg-gray-800 text-white p-6 rounded-lg shadow-md mt-20">
@@ -18,24 +16,36 @@ const Footer = () => {
 
           <div className="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
             <div>
-              <h2 className="mb-6 text-sm font-semibold  uppercase text-yellow-400 ">Links</h2>
+              <h2 className="mb-6 text-sm font-semibold  uppercase text-yellow-400 ">
+                Links
+              </h2>
               <ul className="font-medium">
                 <li className="hover:underline">
-                  <a href="#" className="hover:underline ">Home</a>
+                  <a href="#" className="hover:underline ">
+                    Home
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">About</a>
+                  <a href="#" className="hover:underline">
+                    About
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">ContactS</a>
+                  <a href="#" className="hover:underline">
+                    ContactS
+                  </a>
                 </li>
                 <li>
-                  <a href="#" className="hover:underline">StudentS</a>
+                  <a href="#" className="hover:underline">
+                    StudentS
+                  </a>
                 </li>
               </ul>
             </div>
             <div>
-              <h2 className="mb-6 text-sm font-semibold uppercase text-yellow-400 ">Follow us</h2>
+              <h2 className="mb-6 text-sm font-semibold uppercase text-yellow-400 ">
+                Follow us
+              </h2>
               <ul className="text-gray-500  font-medium">
                 <li className="m-4">
                   <a
@@ -67,29 +77,21 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <hr class="my-6 border-gray-200 sm:mx-auto lg:my-8" />
-        <div class="sm:flex sm:items-center sm:justify-between">
+        <hr className="my-6 border-gray-200 sm:mx-auto lg:my-8" />
+        <div className="sm:flex sm:items-center sm:justify-between">
           <div className="text-left text-xs space-x-2">
             <span className="text-gray-400">Copyright © 2024</span>
             <span className="text-gray-500">|</span>
-            <a href="#" >
-              Disclaimer
-            </a>
+            <a href="#">Disclaimer</a>
             <span className="text-gray-500">|</span>
-            <a href="#" >
-              Terms of Use
-            </a>
+            <a href="#">Terms of Use</a>
             <span className="text-gray-500">|</span>
-            <a href="#" >
-              Privacy Policy
-            </a>
+            <a href="#">Privacy Policy</a>
           </div>
         </div>
       </div>
-
     </footer>
-
   );
-}
+};
 
 export default Footer;
