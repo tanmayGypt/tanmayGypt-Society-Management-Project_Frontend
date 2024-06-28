@@ -86,11 +86,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      {/* <div className="absolute bottom-0 right-0 mr-4 mb-4">
-        <button className="bg-green-500 text-white px-4 py-2 rounded-full shadow-md hover:bg-green-600 transition duration-300">
-          Feedback
-        </button>
-      </div> */}
+
     </footer>
 
   );
