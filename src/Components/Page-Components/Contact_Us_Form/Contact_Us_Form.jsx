@@ -127,7 +127,8 @@ const Contact_Us_Form = () => {
                         </div>
 
                         <div className="pb-2">
-                            <button type="submit" className=" w-full md:w-3/5 md:ml-60  py-2 bg-indigo-500 text-white font-semibold rounded">
+                            <button type="submit" 
+                            className="w-full md:w-3/5 md:ml-60  py-2 bg-indigo-500 text-white font-semibold rounded">
                                 Submit
                             </button>
                         </div>
