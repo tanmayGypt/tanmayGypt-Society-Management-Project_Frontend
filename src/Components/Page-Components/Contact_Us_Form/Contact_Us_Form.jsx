@@ -18,7 +18,6 @@ const Contact_Us_Form = () => {
         const newErrors = {}
         if (!validateContact(contact)) {
             newErrors.contact = "Contact number must be of 10 digits"
-
         }
         setErrors(newErrors)
         return Object.keys(newErrors).length === 0;
@@ -67,7 +66,6 @@ const Contact_Us_Form = () => {
                                 className="w-full md:w-2/3 px-3 py-2 mt-1 md:mt-0 bg-gray-200"
                                 required
                             />
-
                         </div>
 
                         <div className="mb-4 flex flex-col md:flex-row md:items-center">
@@ -81,7 +79,6 @@ const Contact_Us_Form = () => {
                                 className="w-full md:w-2/3 px-3 py-2 mt-1 md:mt-0 bg-gray-200"
                                 required
                             />
-
                         </div>
 
                         <div className="mb-4 flex flex-col md:flex-row md:items-center">
@@ -95,7 +92,6 @@ const Contact_Us_Form = () => {
                                 className="w-full md:w-2/3 px-3 py-2 mt-1 md:mt-0 bg-gray-200"
                                 required
                             />
-
                         </div>
 
                         {errors.contact && <p className="text-red-600 text-md mt-1 mb-3 w-full md:ml-60">{errors.contact}</p>}
@@ -132,7 +128,6 @@ const Contact_Us_Form = () => {
                                 Submit
                             </button>
                         </div>
-
                     </form>
                 </div>
             </div>
