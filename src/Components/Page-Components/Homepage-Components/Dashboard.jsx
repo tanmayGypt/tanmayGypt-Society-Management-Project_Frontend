@@ -1,7 +1,7 @@
-import React from "react";
+// import React from "react";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+// import Slider from "react-slick";
 import bpit from "../../../assets/bpit.jpeg";
 import women from "../../../assets/assets/women.jpg";
 import aavaaran from "../../../assets/assets/aavaaran.jpg";
@@ -9,7 +9,7 @@ import chromavita from "../../../assets/assets/chromavita.jpg";
 import def from "../../../assets/assets/def.jpg";
 import electro from "../../../assets/assets/electro.jpg";
 import ieee from "../../../assets/assets/ieee.jpg";
-import ios from "../../../assets/assets/ios.jpg";
+// import ios from "../../../assets/assets/ios.jpg";
 import kalam from "../../../assets/assets/kalam.jpg";
 import maverics from "../../../assets/assets/maverics.jpg";
 import no4 from "../../../assets/assets/no4.jpg";
@@ -66,7 +66,7 @@ function Dashboard() {
         <img
           src={nscc}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-44 object-cover shadow-xl shadow-grey-700"
         />
       </div>
 
