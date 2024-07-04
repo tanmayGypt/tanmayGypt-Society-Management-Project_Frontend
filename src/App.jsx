@@ -6,6 +6,8 @@ import Home from "./Pages/Home";
 import Existing_Societies_Page from "./Pages/Existing_Societies_Page";
 import Student_Involved from "./Pages/Student_Involved";
 import Society_Registration_Form from "./Components/Page-Components/Society_Registration/Society_Registration_Form";
+import StudentInformation from "./Components/Page-Components/Student_contibution.jsx/StudentInformation";
+
 
 function App() {
   return (
@@ -22,6 +24,10 @@ function App() {
           element={<Existing_Societies_Page />}
           path="/Existing_Societies"
         />
+        <Route
+           element={<StudentInformation/>}
+           path="/studentinformation"
+           />
       </Routes>
       <Footer />
     </Router>
