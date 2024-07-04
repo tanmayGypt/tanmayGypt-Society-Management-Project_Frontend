@@ -68,7 +68,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-gray-900 md:border-0  md:p-0 nav-link hover:text-purple-800 hover:underline"
               >
-                ContactS
+                Contact Us
               </a>
             </li>
             <li>
@@ -76,7 +76,7 @@ const Navbar = () => {
                 href="#"
                 className="block py-2 px-3 text-gray-900 md:border-0  md:p-0 nav-link hover:text-purple-800 hover:underline"
               >
-                StudentS
+                Students
               </a>
             </li>
             <li>
