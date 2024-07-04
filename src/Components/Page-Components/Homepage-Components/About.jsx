@@ -1,17 +1,18 @@
-import React from "react";
+// import React from "react";
 
 function About() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <div className="bg-white p-8 rounded-lg shadow-lg  w-9/12">
+    <div className="min-h-screen bg-white-100 flex items-center justify-center">
+
+      <div className="bg-white p-8 rounded-lg shadow-lg shadow-gray-800 hover:shadow-red-700 w-9/12">
         <header className="text-center">
           <h1 className="text-4xl font-bold text-blue-600 mb-4">
-            ABHIGYAN Alumni Network
+            Society Network
           </h1>
           <p className="text-gray-700 mb-8">
             Welcome to the ABHIGYAN Alumni Network! Our dedicated platform aims
             to maintain connections among graduates, celebrate their
-            achievements, and foster networking opportunities. Whether you're
+            achievements, and foster networking opportunities. Whether you are
             looking to reconnect with old friends, seek mentorship, or explore
             new career prospects, our alumni network is here to support you
             every step of the way.
@@ -22,6 +23,10 @@ function About() {
           >
             Overview
           </button>
+
+          <div className="h-0.5 bg-black mt-8">
+          </div>
+
           <h2 className="text-2xl font-semibold text-gray-800 mt-8 mb-4">
             About Us
           </h2>

@@ -2,7 +2,7 @@
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 // import Slider from "react-slick";
-import bpit from "../../../assets/bpit.jpeg";
+// import bpit from "../../../assets/bpit.jpeg";
 import women from "../../../assets/assets/women.jpg";
 import aavaaran from "../../../assets/assets/aavaaran.jpg";
 import chromavita from "../../../assets/assets/chromavita.jpg";
@@ -22,94 +22,97 @@ import { Link } from "react-router-dom";
 
 function Dashboard() {
   return (
-    <div className="flex flex-col justify-center">
-      <div className="w-full h-[20vh]  p-3 pt-6  ">
+    <div className="flex w-full flex-col justify-center mt-20">
+
+      {/* <div className="w-full h-[40vh] p-0 pt-6">
         <img
           src={bpit}
           alt="BPIT"
           className="w-full h-full object-cover rounded-sm"
         />
-      </div>
+      </div> */}
 
-      <div className="flex gap-6 container  pt-6">
+      <div className="flex container mt-2 w-full mx-auto justify-between space-x-4">
         <img
           src={women}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
 
         <img
           src={electro}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={no6}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={no4}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={ieee}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={def}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={nscc}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-grey-700"
+          className="w-full h-40 object-cover shadow-xl shadow-grey-700"
         />
       </div>
 
-      <div className="flex gap-6 container  pt-6">
+
+      <div className="flex container mt-8 mx-auto w-full justify-between space-x-4">
         <img
           src={aavaaran}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
 
         <img
           src={chromavita}
           alt=""
-          className="w-full h-44 object-cover  shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover  shadow-xl shadow-gray-700"
         />
         <img
           src={kalam}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={maverics}
           alt=""
-          className="w-full h-44 object-covershadow-xl shadow-gray-700"
+          className="w-full h-40 object-covershadow-xl shadow-gray-700"
         />
         <img
           src={opti}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={octve}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
         <img
           src={pamache}
           alt=""
-          className="w-full h-44 object-cover shadow-xl shadow-gray-700"
+          className="w-full h-40 object-cover shadow-xl shadow-gray-700"
         />
       </div>
+      
 
-      <div className="flex   pt-9">
+      <div className="flex justify-center pt-9">
         <Link
           to="/Student_Registration"
           className=" bg-blue-900 hover:bg-purple-700 text-white font-bold mx-36 py-2 px-8 w-80 h-12 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 sm:w-auto"
@@ -118,13 +121,13 @@ function Dashboard() {
         </Link>
         <Link
           to="/Existing_Societies"
-          className=" bg-blue-500 hover:bg-purple-700 text-white font-bold mx-32 py-2 px-6 w-80 h-12 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 sm:w-auto "
+          className=" bg-blue-500 hover:bg-purple-700 text-white font-bold mx-36 py-2 px-8 w-80 h-12 rounded-lg shadow-lg transition duration-300 ease-in-out transform hover:scale-105 sm:w-auto "
         >
           View Existing Society
         </Link>
       </div>
 
-      <div className="p-9 flex">
+      <div className="p-9 flex justify-center">
         <button className=" bg-red-600 hover:bg-purple-700 text-white font-bold  py-2 px-6 mx-80 w-96 h-12 rounded-lg shadow-lg transition sm:w-auto duration-300 ease-in-out transform hover:scale-105 ">
           Send message to any Society
         </button>
