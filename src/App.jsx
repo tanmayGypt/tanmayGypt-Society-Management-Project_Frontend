@@ -8,6 +8,7 @@ import Student_Involved from "./Pages/Student_Involved";
 import Society_Registration_Form from "./Components/Page-Components/Society_Registration/Society_Registration_Form";
 import Student_Login from "./Components/Page-Components/Student_Login/Student_Login";
 import Student_Registration_form from "./Components/Page-Components/Student-Registration_Component/Student_Registration_form";
+// import Testimonials from "./Components/Page-Components/Testimonials/Testimonials";
 
 function App() {
   return (
@@ -35,6 +36,8 @@ function App() {
           element={<Existing_Societies_Page />}
           path="/Existing_Societies"
         />
+
+        {/* <Route element={<Testimonials />} path="/Testimonials" /> */}
 
       </Routes>
       <Footer />

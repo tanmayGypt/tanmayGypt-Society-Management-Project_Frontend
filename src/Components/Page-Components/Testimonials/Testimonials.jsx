@@ -1,10 +1,11 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Card from "./Card";
+import PropTypes from 'prop-types';
 
-const Testinomials = () => {
+const Testimonials = () => {
 
     const [isHover, SetisHover] = useState(false)
     const [selectedYear, setSelectedYear] = useState('All')
@@ -210,5 +211,4 @@ const PrevArrow = (props) => {
     );
 }
 
-
-export default Testinomials;
+export default Testimonials;
